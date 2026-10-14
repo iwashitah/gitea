@@ -23,7 +23,7 @@ jobs:
           ref: ${{ matrix.branch }}
       - uses: jfrog/frogbot@eb4b14765ca0e7a2944f6c80c2d659ff7e9f9869
         env:
-          JF_URL: ${{ secrets.JF_URL }}
+          JF_URL: 'iwashitah6.jfrog.io'
 #          JF_USER: ${{ secrets.JF_USER }}
 #          JF_PASSWORD: ${{ secrets.JF_PASSWORD }}
 #          JF_ACCESS_TOKEN: ${{ secrets.JF_ACCESS_TOKEN }}
